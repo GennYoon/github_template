@@ -1,7 +1,7 @@
 name: Hotfix Report
 description: 배포되어 있는 프로젝트에 긴급 수정이 필요시에 사용합니다. (긴급)
-title: '[Hotfix]: '
-labels: '🐞 QAFix'
+title: "[Hotfix]: "
+labels: "🐞 QAFix"
 body:
   - type: markdown
     attributes:
@@ -30,9 +30,9 @@ body:
     id: version
     attributes:
       label: 버전
-      description: "어떤 버전에서 오류가 발생하였는지 작성해주세요."
-      placeholder: "1.0.0"
-     validations:
+      description: 어떤 버전에서 오류가 발생하였는지 작성해주세요.
+      placeholder: 1.0.0
+    validations:
       required: true
   - type: dropdown
     id: browsers
