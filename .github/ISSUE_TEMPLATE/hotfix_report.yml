@@ -11,6 +11,7 @@ body:
     id: project
     attributes:
       label: 어떤 프로젝트에서 오류가 발생하였나요?
+      multiple: true
       options:
         - Extension
         - Me
