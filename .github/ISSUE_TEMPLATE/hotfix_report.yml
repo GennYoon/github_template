@@ -27,6 +27,7 @@ body:
       description: 어떤 버전에서 오류가 발생하였는지 작성해주세요.
       placeholder: 1.0.0
     validations:
+<<<<<<< Updated upstream
       required: true
   - type: textarea
     id: what-happened
@@ -34,6 +35,8 @@ body:
       label: 어떤 문제가 발생하였나요?
       placeholder: 문제에 대해서 상세히 작성해주세요.
     validations:
+=======
+>>>>>>> Stashed changes
       required: true
   - type: dropdown
     id: browsers

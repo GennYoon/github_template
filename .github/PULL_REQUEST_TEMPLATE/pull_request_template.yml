@@ -1,0 +1,9 @@
+name: Pull Request
+description: 병합을 요청할 때 사용합니다.
+title: "[PR]: "
+labels: "pull_request"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        상세한 병합 내용을 입력해주세요.
