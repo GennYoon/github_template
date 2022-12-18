@@ -30,8 +30,8 @@ body:
     id: version
     attributes:
       label: 버전
-      description: 어떤 버전에서 오류가 발생하였는지 작성해주세요.
-      placeholder: 1.0.0
+      description: "어떤 버전에서 오류가 발생하였는지 작성해주세요."
+      placeholder: "1.0.0"
      validations:
       required: true
   - type: dropdown
