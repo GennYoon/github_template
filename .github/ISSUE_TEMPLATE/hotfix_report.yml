@@ -1,0 +1,6 @@
+name: Hotfix Report
+description: 배포되어 있는 프로젝트에 긴급 수정이 필요
+title: '[Hotfix]: '
+labels: 'bug'
+body:
+  - type: markdown

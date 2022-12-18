@@ -1,0 +1,12 @@
+name: QAfix Report
+description: 아직 배포되지 않은 프로젝트에 해결해야 하는 문제
+title: '[QAfix]: '
+labels: 'QAfix'
+body:
+  - type: input
+    validations:
+      required: true
+## PR 내용
+## 반영 브랜치
+## 변경 사항
+## 확인 방법 (스크린샷 포함)

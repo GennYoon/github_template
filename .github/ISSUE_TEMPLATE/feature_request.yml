@@ -1,0 +1,16 @@
+name: Feature Request
+description: 진행해야하는 신규 내용
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        신규 프로젝트
+  - type: textarea
+    attributes:
+      label: A
+      description: A
+      placeholder: AA
+    validations:
+      required: true
