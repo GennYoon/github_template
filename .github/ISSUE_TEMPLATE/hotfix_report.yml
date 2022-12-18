@@ -1,43 +1,43 @@
 name: Hotfix Report
-description: 배포되어 있는 프로젝트에 긴급 수정이 필요
+description: 배포되어 있는 프로젝트에 긴급 수정이 필요시에 사용합니다. (긴급)
 title: '[Hotfix]: '
-labels: 'bug'
+labels: '🐞 QAFix'
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
+        빠른 수정을 위해 최대한 많은 정보를 상세하게 입력해주세요.
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: 어떤 문제가 발생하였나요?
+      placeholder: 문제에 대해서 상세히 작성해주세요.
     validations:
       required: true
   - type: dropdown
+    id: project
+    attributes:
+      label: 어떤 프로젝트에서 오류가 발생하였나요?
+      options:
+        - Extension
+        - Me
+        - Button
+        - Connect
+        - Dashboard
+    validations:
+      required: true
+  - type: input
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
+      label: 버전
+      description: 어떤 버전에서 오류가 발생하였는지 작성해주세요.
+      placeholder: 1.0.0
+     validations:
       required: true
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: 어떤 브라우저에서 문제가 발생합니까?
       multiple: true
       options:
         - Firefox
@@ -47,14 +47,6 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: 관련 로그 입력
+      description: 관련 로그 출력을 복사하여 붙여넣으십시오.
       render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
