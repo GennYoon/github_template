@@ -16,7 +16,7 @@ body:
         - Firefox
         - Chrome
         - Safari
-  - type: checkbox
+  - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
