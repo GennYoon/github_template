@@ -16,3 +16,11 @@ body:
         - Firefox
         - Chrome
         - Safari
+  - type: checkbox
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: aa
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
