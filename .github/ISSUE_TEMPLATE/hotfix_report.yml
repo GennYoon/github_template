@@ -7,13 +7,6 @@ body:
     attributes:
       value: |
         빠른 수정을 위해 최대한 많은 정보를 상세하게 입력해주세요.
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: 어떤 문제가 발생하였나요?
-      placeholder: 문제에 대해서 상세히 작성해주세요.
-    validations:
-      required: true
   - type: dropdown
     id: project
     attributes:
@@ -32,6 +25,13 @@ body:
       label: 버전
       description: 어떤 버전에서 오류가 발생하였는지 작성해주세요.
       placeholder: 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 어떤 문제가 발생하였나요?
+      placeholder: 문제에 대해서 상세히 작성해주세요.
     validations:
       required: true
   - type: dropdown
