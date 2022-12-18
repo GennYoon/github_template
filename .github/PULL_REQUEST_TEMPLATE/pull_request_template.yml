@@ -7,3 +7,7 @@ body:
     attributes:
       value: |
         상세한 병합 내용을 입력해주세요.
+  - type: markdown
+    attributes:
+      value: |
+        테스트!
